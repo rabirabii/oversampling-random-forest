@@ -27,7 +27,6 @@ Training Models: Train machine learning models, such as Random Forest, on both i
 Performance Comparison: Compare the performance metrics (e.g., accuracy, precision, recall) of models trained on imbalanced and balanced datasets to assess the impact of oversampling.
 
 ## Features
-List the key features of your project. Describe what your project can do or the problems it can solve.
 
 Sampling the Dataset: Implement various techniques for addressing class imbalance, such as oversampling.
 Random Forest: Utilize the Random Forest algorithm for classification tasks.
