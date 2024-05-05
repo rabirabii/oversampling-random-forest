@@ -1,6 +1,6 @@
 # Project Title
 
-Short description or overview of your project.
+The usage of Oversampling Method on Imbalanced Data to Enhance the Performance of Random Forest Algorithm
 
 ## Table of Contents
 
@@ -13,7 +13,7 @@ Short description or overview of your project.
 
 ## Introduction
 
-Hello! My name is [Your Name] and this project is a school project aimed at fulfilling the requirements for grades and a presentation. In this project, we explore the concept of class imbalance in datasets and its impact on machine learning models. We specifically focus on comparing the performance of models trained on imbalanced data versus balanced data obtained through oversampling techniques.
+Hello! My name is Rabi and this project is a school project aimed at fulfilling the requirements for grades and a presentation. In this project, we explore the concept of class imbalance in datasets and its impact on machine learning models. We specifically focus on comparing the performance of models trained on imbalanced data versus balanced data obtained through oversampling techniques.
 
 ## Installation
 
