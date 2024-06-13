@@ -7,7 +7,8 @@ from sklearn.model_selection import KFold, cross_val_score
 import plotly.express as px
 import plotly.figure_factory as ff
 import plotly.graph_objects as go
-
+import sklearn
+print(sklearn.__version__)
 # Load model and data
 model = pickle.load(open('random_forest_model.pkl', 'rb'))
 x_train = pd.read_csv('X_train.csv')
@@ -87,7 +88,7 @@ if menu == "Model Performance":
     )
     val_conf_matrix_fig['data'][0]['showscale'] = True  # Enable color scale
     val_conf_matrix_fig.update_yaxes(autorange="reversed")
-    st.plotly_chart(val_conf_matrix_fig)
+    st.plotly_chart(val_conf_matrix_fig)     
     
     # ROC Curve
     st.write("### ROC Curve")
