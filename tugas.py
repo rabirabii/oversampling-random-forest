@@ -13,7 +13,7 @@ print(sklearn.__version__)
 model = pickle.load(open('random_forest_model.pkl', 'rb'))
 x_train = pd.read_csv('X_train.csv')
 y_train = pd.read_csv('y_train.csv').values.ravel()
-x_val = pd.read_csv("x_val.csv")
+x_val = pd.read_csv("X_val.csv")
 y_val = pd.read_csv("y_val.csv").values.ravel()
 
 # Sidebar for navigation
