@@ -10,12 +10,14 @@ recall_train = TP_train / (TP_train + FN_train)
 # F1 Score
 f1_train = 2 * (precision_train * recall_train) / (precision_train + recall_train)
 
+roc_auc_train = TP_train / (FP_train + TN_train)
+
 print("Training Data Metrics:")
 print(f"Accuracy: {accuracy_train * 100:.2f}%")
 print(f"Precision: {precision_train * 100:.2f}%")
 print(f"Recall: {recall_train * 100:.2f}%")
 print(f"F1 Score: {f1_train * 100:.2f}%")
-
+print(f"Roc Auc Score {roc_auc_train}")
 # Confusion matrix values for validation data
 TN_val, FP_val, FN_val, TP_val = 81, 15, 9, 95
 
