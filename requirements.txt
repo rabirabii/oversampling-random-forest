@@ -10,3 +10,4 @@ streamlit-option-menu
 scikit-fuzzy 
 pymongo 
 python-Levenshtein 
+fuzzywuzzy
