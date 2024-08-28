@@ -11,3 +11,4 @@ scikit-fuzzy
 pymongo 
 python-Levenshtein 
 fuzzywuzzy
+networkx
