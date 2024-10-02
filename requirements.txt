@@ -6,8 +6,9 @@ imbalanced-learn==0.12.3
 streamlit==1.35.0
 plotly==5.22.0
 pandas  
-streamlit-option-menu 
+networkx
 scikit-fuzzy 
 pymongo 
 python-Levenshtein 
 fuzzywuzzy
+gtts
