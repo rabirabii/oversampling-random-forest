@@ -11,4 +11,8 @@ scikit-fuzzy
 pymongo 
 python-Levenshtein 
 fuzzywuzzy
+<<<<<<< HEAD
 gtts
+=======
+networkx
+>>>>>>> 631c6fcdb1100818e9d865ce67e6ce0253a0c87b
