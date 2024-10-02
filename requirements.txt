@@ -13,4 +13,5 @@ python-Levenshtein
 fuzzywuzzy
 gtts
 networkx
+streamlit-option-menu
 
